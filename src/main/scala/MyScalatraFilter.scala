@@ -7,7 +7,12 @@ import scalate.ScalateSupport
 class MyScalatraFilter extends ScalatraFilter with ScalateSupport {
   
   get("/") {
-    <h1>Hello, world!</h1>
+    <html>
+      <body>
+        <h1>Hello, world!</h1>
+        Say <a href="hello-scalate">hello to Scalate</a>.
+      </body>
+    </html>
   }
 
   notFound {
