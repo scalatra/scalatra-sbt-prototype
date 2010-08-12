@@ -26,6 +26,7 @@
 
 8. Happy hacking!
 
+## Eclipse support
 
 If you want to import the project into Eclipse, do the following:
 
@@ -35,7 +36,7 @@ If you want to import the project into Eclipse, do the following:
 
 2. Copy the generated pom-file into place:
 
-        cp target/scala_2.8.0/laggy_2.8.0-0.1.0-SNAPSHOT.pom pom.xml        
+        cp target/scala_2.8.0/myproject_2.8.0-0.1.0-SNAPSHOT.pom pom.xml        
 
 3. Generate eclipse metadata:
 
