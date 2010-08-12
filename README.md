@@ -25,3 +25,20 @@
 7. Learn more at http://www.scalatra.org/.
 
 8. Happy hacking!
+
+
+If you want to import the project into Eclipse, do the following:
+
+1. Generate a Maven pom from the SBT project:
+
+        sbt make-pom
+
+2. Copy the generated pom-file into place:
+
+        cp target/scala_2.8.0/laggy_2.8.0-0.1.0-SNAPSHOT.pom pom.xml        
+
+3. Generate eclipse metadata:
+
+        mvn eclipse:eclipse
+
+4. Import the project into Eclipse as an Existing Java Project.
