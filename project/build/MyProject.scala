@@ -10,6 +10,9 @@ class MyProject(info: ProjectInfo) extends DefaultWebProject(info) {
   // Alternatively, you could use scalatra-specs
   val scalatest = "org.scalatra" %% "scalatra-scalatest" % scalatraVersion % "test"
 
+  // Pick your favorite slf4j binding
+  val slf4jBinding = "org.slf4j" % "slf4j-simple" % "1.6.0" % "runtime"
+
   // http://groups.google.com/group/simple-build-tool/msg/1f17b43807d06cda
   override def testClasspath = super.testClasspath +++ buildCompilerJar
 }
