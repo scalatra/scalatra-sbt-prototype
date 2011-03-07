@@ -10,7 +10,7 @@
 
 3. Launch [SBT](http://code.google.com/p/simple-build-tool).
 
-        sbt
+        ./sbt
 
 4. At SBT prompt, fetch the dependencies.  Do this the first time and also whenever you change the project definition.
 
@@ -32,7 +32,7 @@ If you want to import the project into Eclipse, do the following:
 
 1. Generate a Maven pom from the SBT project:
 
-        sbt make-pom
+        ./sbt make-pom
 
 2. Copy the generated pom-file into place:
 
