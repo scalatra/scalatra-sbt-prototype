@@ -1,7 +1,7 @@
 import sbt._
 
 class MyProject(info: ProjectInfo) extends DefaultWebProject(info) {
-  val scalatraVersion = "2.0.0.M2"
+  val scalatraVersion = "2.0.0.M3"
   val scalatra = "org.scalatra" %% "scalatra" % scalatraVersion
   val scalate = "org.scalatra" %% "scalatra-scalate" % scalatraVersion
   val servletApi = "org.mortbay.jetty" % "servlet-api" % "2.5-20081211" % "provided"
