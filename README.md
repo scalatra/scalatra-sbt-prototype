@@ -1,6 +1,6 @@
 # Deprecated
 
-This project has been [giter8ed](http://github.com/JanxSpirit/scalatra-sbt.g8). We recommend that version instead.
+This project has been [giter8ed](http://github.com/scalatra/scalatra-sbt.g8). We recommend that version instead.
 
 # Scalatra SBT prototype 
 
