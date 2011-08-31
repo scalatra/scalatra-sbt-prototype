@@ -7,7 +7,7 @@
 	<filter>
 		<filter-name>scalatra</filter-name>
 		<filter-class>
-			com.example.MyScalatraFilter
+			MyScalatraFilter
 		</filter-class>
 	</filter>
 	

@@ -1,5 +1,3 @@
-package com.example
-
 import org.scalatra._
 import java.net.URL
 import scalate.ScalateSupport
