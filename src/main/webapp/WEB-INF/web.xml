@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="http://java.sun.com/xml/ns/javaee"
-	xmlns:web="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
-	version="2.4">
-	<filter>
-		<filter-name>scalatra</filter-name>
-		<filter-class>
-			MyScalatraFilter
-		</filter-class>
-	</filter>
-	
-	<filter-mapping>
-		<filter-name>scalatra</filter-name>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>scalatra</servlet-name>
+		<servlet-class>
+			MyScalatraServlet
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>scalatra</servlet-name>
 		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+	</servlet-mapping>
 </web-app>
