@@ -12,7 +12,7 @@ sbt
 2. Run Jetty on the sbt shell
 
 ```
-container:start
+jetty:start
 ```
 
 3. Go to http://localhost:8080/.
