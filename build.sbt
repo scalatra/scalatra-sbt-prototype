@@ -14,4 +14,6 @@ lazy val root = (project in file(".")).settings(
     "org.eclipse.jetty" %  "jetty-webapp"      % "9.2.10.v20150310" % "container",
     "javax.servlet"     %  "javax.servlet-api" % "3.1.0"            % "provided"
   )
-).settings(jetty(): _*)
+)
+
+enablePlugins(JettyPlugin)
